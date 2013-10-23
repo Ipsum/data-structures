@@ -1,23 +1,60 @@
+/*-----Point.cpp-----
+by: David Tyler
+    16.322 Data Structures
+    ECE Dept.
+    UMASS Lowell
+
+PURPOSE
+This file contains functions related to the Point struct
+
+CHANGES
+09-18-13 v0.0.1 --- Passed in for homework 1 credit
+*/
+
+#include "Point.h"
+#include <iostream>
+
+/*-----GetPoint()-----
+
+PURPOSE
+Prompt for and read in a point from the keyboard
+
+OUTPUT
+pt -- the (x,y) point read in
+
+RETURN
+true if a point was read in,
+false otherwise.                               */
+
 bool GetPoint(char *prompt, Point &pt)
 {
-/*Prompt for and read from the keyboard a pair of integers (x, y) giving the location of a point. Store
-the point in cartesian coordinates.
-Input Parameters
-prompt The prompt string.
-Output Parameters
-pt The point to be returned.
-Return Value
-false
-true
-No point entered; the user supplied an empty input.
-A valid point was entered and stored in “pt.” */
+    bool gotPt = false;
+
+    std::cout<<prompt;
+
+    if (std::cin.peek()!='\n')
+    {
+        std::cin>>pt.x>>pt.y;
+        gotPt=true;
+    }
+
+    std::cin.ignore(INT_MAX,'\n');
+
+    return gotPt;
 }
+/*-----ShowPoint()-----
+
+PURPOSE
+Displays the Point argument on the screen 
+in (x,y) format
+
+OUTPUT
+pt -- the point displayed
+
+RETURN
+void                                      */
 
 void ShowPoint(Point pt)
 {
- /*
-Purpose
-Display the point “pt” on the screen in Cartesian form, i.e., “(x, y).”
-Input Parameters
-pt The point to be displayed.*/
+    std::cout<<"("<<pt.x<<", "<<pt.y<<")"<<std::endl;
 }
