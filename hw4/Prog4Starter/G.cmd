@@ -1,0 +1,6 @@
+O NEWFCN.TXT
+P
+F
+G 0 100 21
+G 100 0 21
+

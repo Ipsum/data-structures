@@ -1,0 +1,160 @@
+TEST RUNS
+
+===========RUN 1===============
+
+ENTER A FUNCTION DEFINITION:
+
+Enter the next point: 0 0
+Enter the next point: 10 20
+Enter the next point: 20 20
+Enter the next point: 40 0
+Enter the next point:
+
+Here is the function definition:
+(0, 0)
+(10, 20)
+(20, 20)
+(40, 0)
+
+What is the start time? 0
+
+What is the end time? 100
+
+How many points? 21
+
+Here is the interpolated waveform:
+(0, 0)
+(5, 10)
+(10, 20)
+(15, 20)
+(20, 20)
+(25, 15)
+(30, 10)
+(35, 5)
+(40, 0)
+(45, 10)
+(50, 20)
+(55, 20)
+(60, 20)
+(65, 15)
+(70, 10)
+(75, 5)
+(80, 0)
+(85, 10)
+(90, 20)
+(95, 20)
+(100, 20)
+Press any key to continue . . .
+
+===========RUN 2===============
+
+ENTER A FUNCTION DEFINITION:
+
+Enter the next point: 0 0
+Enter the next point: 1 20
+Enter the next point: 40 1000
+Enter the next point: 90 1
+Enter the next point:
+
+Here is the function definition:
+(0, 0)
+(1, 20)
+(40, 1000)
+(90, 1)
+
+What is the start time? -1
+
+What is the end time? 100
+
+How many points? 10
+
+Here is the interpolated waveform:
+(-1, 20)
+(9, 225)
+(19, 475)
+(29, 725)
+(39, 975)
+(49, 780)
+(59, 590)
+(69, 400)
+(79, 210)
+(89, 20)
+(99, 225)
+Press any key to continue . . .
+
+===========RUN 3===============
+
+ENTER A FUNCTION DEFINITION:
+
+Enter the next point: 0 0
+Enter the next point: 1 1
+Enter the next point: 2 2
+Enter the next point: 3
+3
+Enter the next point: 4 4
+Enter the next point: 5 5
+Enter the next point: 6 6
+Enter the next point: 7 7
+Enter the next point: 8 8
+Enter the next point: 9 9
+
+Here is the function definition:
+(0, 0)
+(1, 1)
+(2, 2)
+(3, 3)
+(4, 4)
+(5, 5)
+(6, 6)
+(7, 7)
+(8, 8)
+(9, 9)
+
+What is the start time? 0
+
+What is the end time? 10
+
+How many points? 12
+
+Here is the interpolated waveform:
+(0, 0)
+(1, 1)
+(2, 2)
+(3, 3)
+(4, 4)
+(5, 5)
+(6, 6)
+(7, 7)
+(8, 8)
+(9, 0)
+(10, 1)
+Press any key to continue . . .
+
+===========RUN 4===============
+
+ENTER A FUNCTION DEFINITION:
+
+Enter the next point: -10 20
+Enter the next point: 0 0
+Enter the next point: 20 25
+Enter the next point: 30 -1
+Enter the next point:
+
+Here is the function definition:
+(-10, 20)
+(0, 0)
+(20, 25)
+(30, -1)
+
+What is the start time? -20
+
+What is the end time? 50
+
+How many points? 3
+
+Here is the interpolated waveform:
+(-20, 15)
+(3, 8)
+(26, 7)
+(49, 24)
+Press any key to continue . . .
